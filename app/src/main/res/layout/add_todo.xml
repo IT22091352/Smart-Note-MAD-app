@@ -11,29 +11,35 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Add Notes"
-        android:background="#FFFDD0"
-        android:bottomRightRadius="2dp"
-        android:bottomLeftRadius="2dp"
-        android:topLeftRadius="2dp"
-        android:topRightRadius="10dp"
-        android:textColor="#001a33"
+        android:text="Add a note"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:textStyle="bold"
-        android:textSize="16dp"
-        android:textColor="#001a33" />
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/edTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter title"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter priority"
         android:inputType="textCapWords"
         android:textColor="@android:color/black" />
 
@@ -41,15 +47,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/description"
-        android:textStyle="bold"
-        android:textSize="16dp"
         android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/edDesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your message..."
+        android:hint="Enter your message.."
         android:inputType="textMultiLine|textCapSentences"
         android:maxLines="8"
         android:textColor="@android:color/black" />
@@ -67,9 +71,9 @@
             android:layout_marginEnd="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight=".5"
-            android:background="#001a33"
+            android:background="@drawable/btn_background"
             android:text="@string/add"
-            android:textColor="#FFFFFF" />
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/btCancel"
@@ -78,8 +82,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginStart="3dp"
             android:layout_weight=".5"
-            android:background="#001a33"
+            android:background="@drawable/btn_background"
             android:text="@string/cancel"
-            android:textColor="#FFFFFF" />
+            android:textColor="@android:color/white" />
     </LinearLayout>
 </LinearLayout>

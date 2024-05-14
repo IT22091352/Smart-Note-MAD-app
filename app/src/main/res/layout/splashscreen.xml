@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#E1D9D1">
 
     <ImageView
         android:id="@+id/logo"
@@ -12,7 +12,6 @@
         android:src="@drawable/ic_todo_logo"
         app:layout_constraintBottom_toTopOf="@id/app_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,10 +19,9 @@
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get a Smart Noting Experience"
-        android:textColor="#001a33"
-        android:textStyle="bold"
-        android:textSize="29sp"
+        android:text="Get you a Smart Noting Experience"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

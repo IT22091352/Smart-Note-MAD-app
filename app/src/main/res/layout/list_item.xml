@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    android:background="@drawable/item_background"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#001a33"
     android:padding="10dp">
 
     <TextView
@@ -16,7 +16,22 @@
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/btnDelete"
         android:layout_toStartOf="@+id/btnDelete"
-        android:text="MAD"
+        android:text="Govind"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-113dp"
+        android:layout_marginRight="-113dp"
+        android:layout_toStartOf="@+id/btnDelete"
+        android:layout_toLeftOf="@+id/btnDelete"
+        android:text="max"
         android:textColor="@color/white"
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
@@ -26,12 +41,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
-        android:layout_toLeftOf="@+id/btnDelete"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-17dp"
+        android:layout_marginRight="-17dp"
         android:layout_toStartOf="@+id/btnDelete"
+        android:layout_toLeftOf="@+id/btnDelete"
         android:maxLines="3"
-        android:text="report submition"
+        android:text="Siliguri, Darjeeling"
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="14sp"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -41,9 +59,9 @@
         android:layout_below="@+id/tvDesc"
         android:layout_toLeftOf="@+id/btnDelete"
         android:layout_toStartOf="@+id/btnDelete"
-        android:text="Date and Time"
+        android:text="DateTime"
         android:textColor="@color/white"
-        android:textSize="13sp"
+        android:textSize="12sp"
         tools:ignore="HardcodedText" />
 
     <ImageButton

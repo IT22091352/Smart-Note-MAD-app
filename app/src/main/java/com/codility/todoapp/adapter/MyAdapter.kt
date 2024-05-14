@@ -43,6 +43,7 @@ class MyAdapter(private var todoList: ArrayList<Todo>) : RecyclerView.Adapter<My
     inner class ViewHolder(val binding: ListItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindItems(todo: Todo) {
             binding.tvTitle.text = todo.title
+            binding.tvPriority.text = todo.priority
             binding.tvDesc.text = todo.description
             binding.tvTimestamp.text = todo.timestamp
         }

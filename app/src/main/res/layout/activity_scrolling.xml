@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.codility.todoapp.ScrollingActivity">
+    tools:context="com.cordiality.todoapp.ScrollingActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="com.codility.todoapp.ScrollingActivity"
+        tools:context="com.cordiality.todoapp.ScrollingActivity"
         tools:showIn="@layout/activity_scrolling">
 
         <androidx.recyclerview.widget.RecyclerView
